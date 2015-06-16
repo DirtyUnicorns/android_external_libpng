@@ -80,7 +80,7 @@ LOCAL_ASFLAGS += $(common_ASFLAGS)
 LOCAL_SRC_FILES_arm := $(my_src_files_arm)
 LOCAL_CFLAGS_arm64 := $(my_cflags_arm64)
 LOCAL_SRC_FILES_arm64 := $(my_src_files_arm)
-LOCAL_ADDRESS_SANITIZER := false
+LOCAL_SANITIZE := never
 
 LOCAL_C_INCLUDES += $(common_C_INCLUDES) \
 	external/zlib
